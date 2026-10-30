@@ -1,0 +1,67 @@
+/* VIP Games · tokens do DS EstrelaGames (Rjx31bgpOt4m1U8DVKyWtd · modo VIP Games), valores resolvidos 1:1 */
+:root{
+  color-scheme: dark;
+  /* background */
+  --bg-default:#101112; --bg-subtle:#181919; --bg-strong:#212223; --bg-raised:#28292a; --bg-inset:#010101; --bg-highlight:#ffffff14; --bg-chrome:#181919; --bg-divider:#28292a; --bg-band:#00000052;
+  --bga-default-50:#10111280; --bga-default-75:#101112bf; --bga-subtle-50:#18191980; --bga-subtle-75:#181919bf;
+  --bga-strong-25:#21222340; --bga-strong-50:#21222380; --bga-strong-75:#212223bf;
+  --bga-secondary-16:#e1e45429; --bga-secondary-32:#e1e45452; --bga-accent-12:#ffc8411f;
+  /* border */
+  --border-muted:#ffffff14; --border-default:#212223; --border-strong:#383a3b; --border-focus:#e2e656;
+  --border-hl-top:#ffffff29; --border-gold-top:#eef2b6e5; --border-gold-bottom:#e2e6565c;
+  /* text */
+  --text-default:#edeeee; --text-muted:#b0b4b6; --text-link:#e1e454; --text-subtle:#5d6062; --text-disabled:#454849;
+  --text-brand:#e1e454; --text-success:#52de7e; --text-error:#ff6b6e; --text-prize:#ffc841;
+  --text-on-color:#ffffff; --text-on-color-muted:#ffffffd9; --text-on-color-subtle:#ffffffb2; --text-on-light:#101112;
+  /* system */
+  --sys-info:#eef111; --sys-success:#2cc160; --sys-success-strong:#8cf0a9; --sys-warning:#ffbe2e; --sys-error:#ef4452;
+  --sysa-success-25:#2cc16040; --sysa-error-25:#ef445240; --sysa-info-25:#3b74f540;
+  --notification-error:#ef4452;
+  /* effects */
+  --hl-subtle:#ffffff29; --hl:#ffffff52; --hl-strong:#ffffff7a;
+  --shadow-faint:#0000001f; --shadow-subtle:#0000003d; --shadow:#00000066; --shadow-strong:#00000080;
+  --glow-info:#e2e65652; --glow-accent:#ffbe2e52; --glow-success:#52de7ea3; --glow-gold:#e1e45452; --glow-blue:#e1e454; --glow-red:#ff6b6e;
+  /* surfaces */
+  --surface-card-top:#181919; --surface-card-bottom:#101112; --surface-elevated-top:#28292a; --surface-elevated-bottom:#181919;
+  /* buttons */
+  --btn-primary-top:#e2e656; --btn-primary-bg:#6f712c; --btn-secondary-border:#eef111;
+  --btn-disabled-top:#28292a; --btn-disabled-bg:#28292a; --btn-disabled-text:#454849;
+  /* tabs */
+  --tab-default-text:#b0b4b6; --tab-container:#212223; --input-border:#212223;
+  --tab-padrao:#e2e656; --tab-padrao-tint:#e2e6563d; --tab-rosa:#e93d82; --tab-rosa-tint:#e93d823d;
+  /* games */
+  --game-truco:#e5484d; --game-paulista:#3b74f5; --game-cacheta:#8752f2; --game-tranca:#2cc160; --game-buraco:#1f9a4a;
+  --game-poker:#0fa968; --game-sinuca:#2fa35a; --game-todos:#eef111; --game-domino:#14b8a6; --game-dama:#f76b15; --game-xadrez:#5b6cff;
+  --game-paulista-tint:#3b74f53d; --game-truco-tint:#e5484d3d; --game-cacheta-tint:#8752f23d; --game-buraco-tint:#1f9a4a3d;
+  /* crew */
+  --crew-engenheiro:#4fb3ff; --crew-comandante:#f5c542; --crew-piloto:#ff5a36; --crew-navegador:#e86bff; --crew-explorador:#4dffb8;
+  --crew-bar:#ff9f43; --crew-reis:#34d399; --crew-nobru:#3d8bff; --crew-inhui:#ff4fb0;
+  /* stake / table */
+  --stake-padrao-top:#484913; --stake-padrao-bottom:#25260d; --stake-iniciante-top:#1f9a4a; --stake-iniciante-bottom:#1f502c;
+  --table-card-top:#1f5a4a; --table-card-bottom:#0f2e2a; --table-stake:#ffc841;
+  --plus-bg:#52de7e; --plus-icon:#101112;
+  /* cards */
+  --card-face:#ffffff; --card-border:#9ea2a4; --suit-red:#c72c3d; --suit-black:#141922; --back-top:#595b22; --back-bottom:#2f3007;
+  /* seat timer */
+  --seat-timer-track:#ffffff1f; --seat-timer:#eef111;
+  /* type */
+  --f-display:"Sora", "Inter", system-ui, sans-serif;
+  --f-ui:"Inter", system-ui, -apple-system, sans-serif;
+  --f-call:"Industry", "Sora", sans-serif;
+  /* marca · VIP Games (sobrescreve) */
+  --back-top:#181919; --back-bottom:#181919; --btn-primary-text:#101112; --btn-primary-bg:#e1e454; --crew-nobru:#EEF111; --crew-inhui:#EEF111; --crew-rainhavip:#E1E454;
+}
+/* estilos de texto do DS */
+.t-d3xl{font:700 64px/1.2 var(--f-display);letter-spacing:-.02em}
+.t-d2xl{font:700 48px/1.2 var(--f-display);letter-spacing:-.02em}
+.t-dxl{font:700 40px/1.2 var(--f-display);letter-spacing:-.02em}
+.t-dl{font:700 32px/1.2 var(--f-display);letter-spacing:-.02em}
+.t-dm{font:700 24px/1.2 var(--f-display);letter-spacing:-.01em}
+.t-ds{font:700 20px/1.2 var(--f-display);letter-spacing:-.01em}
+.t-dxs{font:600 16px/1.2 var(--f-display)}
+.t-d2xs{font:600 14px/1.2 var(--f-display)}
+.t-d3xs{font:600 12px/1.2 var(--f-display)}
+.t-hm{font:700 20px/1.2 var(--f-ui)}
+.t-ll{font:500 16px/1 var(--f-ui)} .t-lm{font:500 14px/1 var(--f-ui)} .t-ls{font:500 12px/1 var(--f-ui)} .t-lxs{font:500 10px/1 var(--f-ui)} .t-l2xs{font:500 8px/1 var(--f-ui)}
+.t-link{font:700 12px/1.5 var(--f-ui)}
+.t-p2xl{font:400 20px/1.5 var(--f-ui)} .t-pm{font:400 14px/1.5 var(--f-ui)} .t-ps{font:400 12px/1.5 var(--f-ui)}
